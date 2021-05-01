@@ -6,13 +6,9 @@
 body{
   font-family: 'Lato', sans-serif;
 }
-.bg
-{
-    background-color: #35363A;
 
-}
 /*------LOADER--------*/
-.effect{
+/* .effect{
  text-align: center;
  color: white;
  display: grid;
@@ -65,7 +61,7 @@ h1::before
     opacity: 0;
     display: none;
     transition: opacity 2s ease-in;
-}
+} */
 /*------LOADER--------*/
 
 .display-5
@@ -74,22 +70,19 @@ h1::before
     display: grid;
     place-items: center;
     font-style: bold;
-    color: white;
+    
 }
 .box
 {
     color: white;
     background-color: purple;
     box-shadow: 10px 10px 40px red;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+   
     border-radius: 10px;
-    width: 800px;
+    width: 90%;
     padding: 80px;
-    max-width: 1000px;
-    max-height: 1000px;
-    transform: translate(-50%,-50%);
+
+    
         font-family: 'Lato', sans-serif;
 }
 .box,.body-box
