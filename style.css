@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family: 'Lato', sans-serif;
+}
+.bg
+{
+    background-color: #35363A;
+
+}
+/*------LOADER--------*/
+.effect{
+ text-align: center;
+ color: white;
+ display: grid;
+ place-items: center; 
+ width: 100vw;
+ height: 100vh;
+ background-color: black;
+}
+h1{
+    position: relative;
+    font-family: 'Lato', sans-serif;
+   
+}
+h1::before
+{
+    content: "Loading";
+    width: 100%;
+    color: #FF6701;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-right: 0.2rem soli;
+    border-right: 0.2rem solid ;
+    animation: slide 3s linear infinite;
+    -webkit-animation: slide 3s linear infinite;
+    overflow: hidden;
+}
+.loader {
+    height: 50px;
+    transform-origin: bottom center;
+    animation: slide 3s linear infinite;
+}
+@keyframes slide{
+
+    0%
+    {
+        width: 0%;
+    }
+    50%
+    {
+        width: 100%;
+    }
+    100%
+    {
+        width: 0%;
+    }
+}
+
+.main {
+    opacity: 0;
+    display: none;
+    transition: opacity 2s ease-in;
+}
+/*------LOADER--------*/
+
+.display-5
+{
+    text-align: center;
+    display: grid;
+    place-items: center;
+    font-style: bold;
+    color: white;
+}
+.box
+{
+    color: white;
+    background-color: purple;
+    box-shadow: 10px 10px 40px red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    width: 800px;
+    padding: 80px;
+    max-width: 1000px;
+    max-height: 1000px;
+    transform: translate(-50%,-50%);
+        font-family: 'Lato', sans-serif;
+}
+.box,.body-box
+{
+    margin-top: 50px;
+    text-align: center;
+        font-family: 'Lato', sans-serif;
+}
+#btn
+{
+    padding: 10px 20px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+   
+}
+#btn:hover {background-color: #3e8e41}
+
+#btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#output
+{
+    font-size: 25px;
+}
