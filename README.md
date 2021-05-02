@@ -3,7 +3,7 @@
 <b>This website generates random Interview questions for you to practice a mock Interview.</b>
 <br>
 
-<b><a href="https://github.com/CodesbyUnnati/question-generating-machine">CHECK LIVE</a></b>
+<b><a href="https://codesbyunnati.github.io/question-generating-machine/">CHECK LIVE</a></b>
 <br>
 
 
